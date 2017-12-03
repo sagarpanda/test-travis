@@ -12,12 +12,13 @@ upload_files() {
   git subtree split --branch gh-pages --prefix dist
   git checkout gh-pages
 
-  cd dist
-  cp -r . ../
-  cd ..
+  if [ -d "$DIRECTORY" ]; then
+    cd dist
+    cp -r . ../
+    cd ..
+    rm -rf dist
+  fi
   rm -rf node_modules
-  rm -rf dist
-
   git add -A
   git commit -m "Travis build: 0"
 
