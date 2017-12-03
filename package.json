@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/sagarpanda/test-travis/issues"
   },
-  "homepage": "https://github.com/sagarpanda/test-travis#readme"
+  "homepage": "https://github.com/sagarpanda/test-travis#readme",
+  "dependencies": {}
 }
