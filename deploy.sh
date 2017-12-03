@@ -12,7 +12,7 @@ commit_website_files() {
 }
 
 upload_files() {
-  git remote add origin-pages https://${GH_TOKEN}@github.com/sagarpanda/test-travis.git > /dev/null 2>&1
+  git remote add origin-pages https://e62ad3709db4ccb3ee2c02f7b8127dbe026bac01@github.com/sagarpanda/test-travis.git > /dev/null 2>&1
   git push --quiet --set-upstream origin-pages gh-pages
 }
 
