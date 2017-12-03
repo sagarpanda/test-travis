@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "6"
+script:
+  - git checkout master
+  - chmod +x deploy.sh
 deploy:
   provider: script
   script: ./deploy.sh

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "chmod 777 deploy.sh"
+    "test": ""
   },
   "repository": {
     "type": "git",
